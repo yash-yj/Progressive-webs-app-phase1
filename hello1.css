@@ -1,0 +1,120 @@
+body{
+	background-color: pink;
+}
+.parent{
+	margin: 4%;
+	border-radius: 4%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: cyan;
+}
+.head{
+	border-radius: 4%;
+	text-align: center;
+	background-color: bisque;
+    margin:4%;
+    width:20%;
+    height: 50%;
+    box-shadow: 4px 4px 4px 4px;
+    /*font-size: 100%;*/
+}
+.head1{
+	text-align: left;
+	background-color: bisque;
+    margin:4%;
+    width:60%;
+    padding-bottom: 2%;
+    box-shadow: 4px 4px 4px 4px;
+    font-size: 150%;
+    border-radius: 5%;
+}
+table{
+	margin-left: 5%;
+}
+#p{
+	text-align: center;
+}
+@media screen and (min-width: 500px) and (max-width: 600px) {
+
+body{
+	background-color: green;
+}
+.parent{
+	margin: 1%;
+	border-radius: 4%;
+	display: inline-block;
+	/*flex-direction: row;*/
+	justify-content: space-around;
+	background-color: skyblue;
+	width: 100%;
+}
+.head{
+	border-radius: 4%;
+	text-align: center;
+	background-color: violet;
+    margin:1%;
+    width:90%;
+    height: 50%;
+    box-shadow: 4px 4px 4px 4px;
+    /*font-size: 100%;*/
+}
+.head1{
+	text-align: left;
+	background-color: bisque;
+    margin:1%;
+    width:96%;
+    padding-bottom: 2%;
+    box-shadow: 4px 4px 4px 4px;
+    border-radius: 3%;
+}
+table{
+	overflow-x: auto;
+	width: 20%;
+
+}
+#p{
+	text-align: center;
+}
+}
+@media screen and (min-width: 600px) and (max-width: 857px) {
+
+body{
+	background-color: green;
+}
+.parent{
+	margin: 2%;
+	border-radius: 4%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: cyan;
+	width: 100%;
+}
+.head{
+	border-radius: 4%;
+	text-align: center;
+	background-color: bisque;
+    margin:2%;
+    width:90%;
+    height: 50%;
+    box-shadow: 4px 4px 4px 4px;
+    /*font-size: 100%;*/
+}
+.head1{
+	text-align: left;
+	background-color: bisque;
+    margin:2%;
+    width:90%;
+    padding-bottom: 2%;
+    box-shadow: 4px 4px 4px 4px;
+    border-radius: 3%;
+}
+table{
+	overflow-x: auto;
+	width: auto;
+}
+#p{
+	text-align: center;
+}
+}

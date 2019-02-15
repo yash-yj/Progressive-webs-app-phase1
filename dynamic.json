@@ -1,0 +1,50 @@
+{
+"profile":{
+	"img":"propic1.jpg",
+	"name":"YASH JAIN",
+	"roll":"16A31A0560",
+	"place":"kakinada",
+	"des":"student cum web developer"
+},
+"career":{
+	"info":"achieving the unachievable"
+},
+"education":[
+	{
+		"sno":"1",
+		"degree":"Btech",
+		"college":"PEC",
+		"per":"8.4",
+		"yop":"2020"
+
+	},
+	{
+		"sno":"2",
+		"degree":"intermediate",
+		"college":"Narayana junior college",
+		"per":"95",
+		"yop":"2017"	
+	},
+	{
+		"sno":"3",
+		"degree":"S.S.C",
+		"college":"Ashram public school",
+		"per":"90",
+		"yop":"2015"
+	}
+],
+
+"languages":[
+	{
+		"lang":"C"
+	},
+	{
+		"lang":"Java"
+	},
+	{
+		"lang":"HTML"
+	}
+]
+
+
+}
